@@ -43,10 +43,10 @@ int main(){
                 cout<<endl;
                 break;
             case 3:
-                cout<<"Ingrese el tamanio del arrego:";
+                cout<<"Ingrese el tamanio del arreglo:";
                 cin>>temp;
                 cin.ignore();
-                cout<<"Ingrese el valor con el que desea inicializar:";
+                cout<<"Ingrese el valor con el que desea inicializar el arreglo:";
                 getline(cin,aux);
                 datos = vector<string>(temp, aux);
                 break;
@@ -54,7 +54,7 @@ int main(){
                 if(datos.empty())
                     cout<<"El arreglo se encuentra vacio";
                 else
-                    cout<< "Primero elemento del arreglo: " <<datos.front()<<endl;
+                    cout<< "Primer elemento del arreglo: " <<datos.front()<<endl;
                   
                 break;
             case 5:
