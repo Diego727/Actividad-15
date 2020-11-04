@@ -39,7 +39,7 @@ int main(){
                     cout<<datos[i]<< " ,";
 
 
-                cout<<"\b";
+                cout<<"\b ";
                 cout<<endl;
                 break;
             case 3:
@@ -89,8 +89,6 @@ int main(){
                 cout<<"Posicion: ";
                 cin>>temp;
                 cin.ignore();
-                cout<<"Cadena: ";
-                getline(cin,aux);
 
                 if(temp < 0 and temp>=datos.size())
                     cout<<"Posicion no valida"<<endl;
